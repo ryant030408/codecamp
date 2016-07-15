@@ -1,0 +1,42 @@
+body{
+
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+a {
+    text-decoration: none; }
+h1{
+
+}
+.content{
+   
+
+}
+#title{
+    font-family: 'Chewy', cursive;
+    font-size:68px;
+    color: white; 
+    padding-left:65px;
+}
+#intro{
+    margin-top: 15%;
+    
+}
+#textbox{
+    overflow: hidden;
+    padding: 90px;
+    background-color: white;
+    min-height: 350px;
+    border-radius: 15px 50px;
+    font-size: 55px;
+    font-family: 'Shrikhand', cursive;
+    
+}
+#buttons{
+
+}
+.twit{
+    background-color: transparent;  
+}

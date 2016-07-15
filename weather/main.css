@@ -1,0 +1,18 @@
+#weatherbox{
+    border: solid black 10px;
+    min-height: 350px;
+    width: 350px;
+    text-align: center;
+    margin-top: 10%;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+#weathers{
+    font-size: 30pt;
+    margin-top: 20%;
+    font-family: 'Rasa', serif;
+}
+#title{
+    font-size: 48pt;
+    font-family: 'Lalezar', cursive;
+}

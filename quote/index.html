@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Chewy|Shrikhand" rel="stylesheet">
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+        <script>
+            $.backstretch("images/another.JPG");
+        </script>
+        <div class="row">
+            <div id="intro">
+                <h1 class="col-xs-3 col-xs-offset-3" id="title">
+        Quote Generator!
+        </h1> </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3" id="textbox"> <q id="quotes"></q>
+                <p id="author" style="text-align:right"></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3" id="buttons">
+                <a class="btn twit" id="tweets" target="_blank"><img src="images/twitter.png"/></a>
+                <button class="btn twit" onclick="refresh()"><img src="images/uprefresh.png" /></button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
